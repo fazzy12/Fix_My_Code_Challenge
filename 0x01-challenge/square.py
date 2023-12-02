@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""
+Square class defined by geometric shape Square
+"""
 
 class Square:
+    """ Square class """
     def __init__(self, width=0, height=0, *args, **kwargs):
         self.width = width
         self.height = height
