@@ -6,6 +6,7 @@ Square class defined by geometric shape Square
 class Square:
     """ Square class """
     def __init__(self, width=0, height=0, *args, **kwargs):
+        """ Initialize Square with attributes """
         self.width = width
         self.height = height
         for key, value in kwargs.items():
